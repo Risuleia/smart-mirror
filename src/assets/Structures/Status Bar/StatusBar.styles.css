@@ -1,0 +1,17 @@
+#status-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    align-items: center;
+    width: 100vh;
+    top: 0;
+    left: 0;
+    background: var(--nav-clr);
+    height: 40px;
+    position: fixed;
+    z-index: 90;
+}
+.status-group {
+    display: flex;
+    gap: 2rem;
+}
